@@ -1,0 +1,573 @@
+{
+  "projects": [
+    {
+      "title": "Garden Heirloom — Kidswear Capsule Collection",
+      "category": "kidswear",
+      "description": "Capsule de mode enfant inspirée du vestiaire traditionnel européen et des vêtements transmis de génération en génération.\nLa collection explore les savoir-faire artisanaux à travers les smocks, broderies, tartans et imprimés floraux, réalisés dans des matières naturelles comme le coton, la popeline et la flanelle légère.\nSilhouettes amples, grands cols, volumes bloomer et détails faits main composent un vestiaire intemporel, pensé autour de l’héritage, du confort et de la durabilité.\n\nCreative direction, design et développement : Studio Poudré.",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773330047/portfolio/tcbxi87pvaqlyzqrhe5q.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773329874/portfolio/ec0idf9clgloqe6nhwyx.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773329899/portfolio/lmpk0ovxoobn796vwggd.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773329906/portfolio/yvfb6rnjnk7gafebxoza.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773329935/portfolio/yplxhjyisi0tg76ogpz5.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773329947/portfolio/jqhjnathjdlsorod7tkv.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773329960/portfolio/xasdydqrjnv55av9yz81.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773329968/portfolio/dletrwrl3jazsib0pzdz.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773329979/portfolio/ssmyzo5hbwurwfseirti.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773329998/portfolio/mpyozjz4eapzvxeuehkd.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773330006/portfolio/keacoafcimsljrztualw.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773330015/portfolio/zwwdzsdgikqo25t0ubkx.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773330025/portfolio/vlv5e2g1cfc4niyjeacj.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773330036/portfolio/gnax2hwmjjhkxj8gfkut.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773330047/portfolio/tcbxi87pvaqlyzqrhe5q.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773330055/portfolio/h3salkrcrccty1nc5ini.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773330078/portfolio/a8v4hvk0q0penfgl20tb.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773330086/portfolio/bfmgckpfzoa9ulkbni9d.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773330095/portfolio/prqm6nwsllpjbzf7mon2.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773330102/portfolio/fuj3qfvehqw0xmhuaivm.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773330130/portfolio/hxaojjwvvjcte9teymsc.jpg"
+      ]
+    },
+    {
+      "title": "Structured Femininity",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968535/portfolio/lq4s1pd0aw21cbw3mske.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792814/portfolio/wy9ijbjy2ikokhfawoyq.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792817/portfolio/htlx8wsfdvw6mzngjcso.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792844/portfolio/qkeolaxjqbdnzrv8xarl.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792860/portfolio/a5kewmfk24x2kxshktux.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792908/portfolio/boc68ojauo8p9pmwsmbc.png"
+      ]
+    },
+    {
+      "title": "Swimwear Design & Print Direction",
+      "category": "prints",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792790/portfolio/pxrlanzih44rcjo4y5hg.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792906/portfolio/chdsl30ztqnev8cnjwcw.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792907/portfolio/cpe8hxn4st9mqpit0vum.jpg"
+      ]
+    },
+    {
+      "title": "Lingerie Design & Material Development",
+      "category": "lingerie",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968544/portfolio/vtvhtvhnzuxspbv9eh4c.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792818/portfolio/m4rgiung1hypdqodworj.webp",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792819/portfolio/d8bnj6pfejcri45bhotc.png"
+      ]
+    },
+    {
+      "title": "Silhouette Archive",
+      "category": "kidswear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968534/portfolio/fpk3ud4l70pmkqgrfuaq.jpg",
+      "video": "",
+      "gallery": []
+    },
+    {
+      "title": "Swimwear Design & Woven Stripes",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968536/portfolio/iapbu44axcqejf25idfx.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792810/portfolio/oieohbykw7gxuohwnj1i.png"
+      ]
+    },
+    {
+      "title": "Print Design ",
+      "category": "prints",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792791/portfolio/mteatt487efspkvr9v4n.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792863/portfolio/su5ssdosclln49evn6hg.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792864/portfolio/kqyj7jbiyubzje8bevd4.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774873296/portfolio/rphqfzjj7pnmm025wny5.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774873304/portfolio/u0pavnvstzati9nwy8a6.png"
+      ]
+    },
+    {
+      "title": "Modern Femininity Silhouette & Material Exploration",
+      "category": "prints",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792791/portfolio/s9u66armvfe3yd8b62ex.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792880/portfolio/gyptdu4xgcjcn21yy8fu.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792882/portfolio/fa0xjpqvxgbo0fkfgfza.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792895/portfolio/ndhqxowzpg9ycynxgbxo.png"
+      ]
+    },
+    {
+      "title": "Childhood Archive",
+      "category": "kidswear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774645150/portfolio/dobmcuiodp3pbdydyfb0.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774272462/portfolio/xgpd6zsfdgumqfeibh83.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774645150/portfolio/dobmcuiodp3pbdydyfb0.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774645166/portfolio/w9nn6o87vnpciva9nlq2.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774645182/portfolio/jdzae1xpuvtxfsgm9m8s.png"
+      ]
+    },
+    {
+      "title": "Second Skin body",
+      "category": "lingerie",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792801/portfolio/gax8tcpibedzizzlnuzc.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792903/portfolio/wt6bmwlfub2otxhrtteo.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968487/portfolio/l5xb6qrhwrkvg848yrpf.png"
+      ]
+    },
+    {
+      "title": "Modern Tricolor",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968541/portfolio/zgygbpoalw5ux1unnfqr.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792848/portfolio/vpsfouk3a3remm3h0gxi.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792849/portfolio/qfdbcnweuybrxliz0wuq.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792851/portfolio/m0qjahj7kifxjlbz0rag.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792851/portfolio/c04ab3np5qyfruqirsiy.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792852/portfolio/x8wrxn4whqddr7povky7.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792916/portfolio/pvldhu0uqwa4dmmrwfmp.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773996648/portfolio/hec7wv8nq4eedpermplg.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773997835/portfolio/pmw7cnsvldnqt3ixuk6a.jpg"
+      ]
+    },
+    {
+      "title": "Jacquard Identity",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968536/portfolio/upbrmymmkx4xdqf82yvy.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792810/portfolio/hsgbctug0kwy2zsre22s.jpg"
+      ]
+    },
+    {
+      "title": "Swimwear Design & Print Direction",
+      "category": "prints",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968538/portfolio/nzuogdyvmaliqxtc2l3c.png",
+      "video": "",
+      "gallery": []
+    },
+    {
+      "title": "Pyjamas",
+      "category": "kidswear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968485/portfolio/nf6bjrraqk1odsuqc6xa.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968486/portfolio/pyuiurwjbjjwq0gkn6zs.png"
+      ]
+    },
+    {
+      "title": "Maison des Pétillantes — Creative Direction",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968537/portfolio/u97otijf7qza5i0bjggg.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792862/portfolio/nfmpslrygthqmcbiledp.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792864/portfolio/kdbfj8mmcyr2r5s1dyes.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792865/portfolio/rmyy1hpdmadnls4koham.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792865/portfolio/p0ssoanxghclvznds6z6.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792868/portfolio/s0hjj8azbu17lyfwfduz.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792874/portfolio/hxu2vu6iin09u6vgnhb0.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792877/portfolio/z1cxotrudvmppatyojgm.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792877/portfolio/uko7xzuysbbeq7spxfbk.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792878/portfolio/h5jfb5dkgf3arfc3ypbl.jpg"
+      ]
+    },
+    {
+      "title": "Pattern Study",
+      "category": "prints",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792803/portfolio/opwqjn9ovwa0goaaeb8n.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792869/portfolio/niqirumkkkpphe8eijqx.jpg"
+      ]
+    },
+    {
+      "title": "Satin Lines",
+      "category": "lingerie",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968545/portfolio/zlalfh1qre7dueybmk8y.png",
+      "video": "",
+      "gallery": []
+    },
+    {
+      "title": "Sculpted Summer",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968542/portfolio/n4ttiz2rocvgnstuy7ue.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792853/portfolio/lflmcmschoxek4t7xuos.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792872/portfolio/vobpyljzknsxhwjgeqwu.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792886/portfolio/ocfqz1ebqjyiuetwwspv.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792908/portfolio/iy6vxvmrtmf0xcvuza0v.jpg"
+      ]
+    },
+    {
+      "title": "Swimwear design ",
+      "category": "kidswear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968540/portfolio/amzl0gahlxuksmevgn2m.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792903/portfolio/ksjqtkdxfgd3lkf0jhwf.png"
+      ]
+    },
+    {
+      "title": "Lingerie & Material Research",
+      "category": "lingerie",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792789/portfolio/wz9bejd94nxmq9kqc79q.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792904/portfolio/u07ipwqtqf340gutevui.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792904/portfolio/nzkhkipjsdusm4qrch9r.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792905/portfolio/uizhvjtooliczluxizj4.jpg"
+      ]
+    },
+    {
+      "title": "Print Direction",
+      "category": "prints",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792802/portfolio/gsdxybijalrjrfnsroyc.png",
+      "video": "",
+      "gallery": []
+    },
+    {
+      "title": "Belán en Familia — Seasonal Collection Concept  Creative exploration of a heritage-inspired childrenswear collection.  ",
+      "category": "kidswear",
+      "description": "\nRole: Creative direction / design / textile & color research / illustration.",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774004192/portfolio/net4svogfrq68ymtmmyj.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774004215/portfolio/qc7cajjrtgynbxthz4h5.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774004241/portfolio/rdn7w3gyj7hee4ci2olz.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774004253/portfolio/fatalyxuyga7fzdpx6qj.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774004263/portfolio/zobtaglnop87yihabuhx.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774004271/portfolio/c6lwziqdr4wilim4dffq.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774004278/portfolio/fsumye3vknpdd9dfxjtb.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774004286/portfolio/ndtlrfc84ct5yhnrtc9c.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774004293/portfolio/bqv0xupe23o4qvpzi86c.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774004299/portfolio/huly7cqeo6zwhx4ioiy3.png"
+      ]
+    },
+    {
+      "title": "Repetto Activewear – Research & Design Project",
+      "category": "lingerie",
+      "description": "Concept développé autour de l’univers de la danse et de l’activewear féminin, dans le cadre d’une proposition créative pour la maison Repetto.\n\nLe projet imagine une collection activewear inspirée des codes historiques de la marque :\ngrâce, légèreté, satin, transparence, seconde peau.\n\nLes silhouettes associent technicité et délicatesse, avec des matières extensibles, des détails inspirés du vestiaire de ballet et une palette poudrée enrichie de tons profonds.\n\nUn travail de direction artistique complet incluant moodboards, gamme couleur, développement matière et design de silhouettes.",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774274053/portfolio/lqwqc0xx6yp7wxzulkbn.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774274070/portfolio/vcwmhu0kimji3yobpyp3.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774274076/portfolio/ujnpkqclaof3pu34mnoh.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774274085/portfolio/ehlhbikac6lxy76fpcfx.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774274097/portfolio/jltbl4oteuzq6nngn6ql.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774274104/portfolio/ez9ultdkmzsnsu24ko8k.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774274116/portfolio/aors6bd20gbi78facwcz.png"
+      ]
+    },
+    {
+      "title": "Constructed Silhouette & Woven Stripes",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968543/portfolio/vmxkiimn1iv2ocdwqvy4.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792812/portfolio/eqdhimthylf191eemfdw.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792812/portfolio/qpsoy9qqitj5mz5ymbku.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792852/portfolio/of0gbzc0p6ifhrt6lx5z.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792887/portfolio/rfw9rdnhy8fk8pe3k9xn.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792887/portfolio/vfqiqzefinehqimnwhne.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773997307/portfolio/f0gwp8oldfobsz7bvmr9.png"
+      ]
+    },
+    {
+      "title": "Design of jacquard on terry fabric (monogram)",
+      "category": "lingerie",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774873264/portfolio/auaz8wxnuezovkzwsmb1.png",
+      "video": "",
+      "gallery": []
+    },
+    {
+      "title": "Smocks Collection",
+      "category": "kidswear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774645261/portfolio/zwjgukpfu2xuf6fvonio.jpg",
+      "video": "",
+      "gallery": []
+    },
+    {
+      "title": "Chromatic Construction",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792799/portfolio/gpahxmyywch6oxmqknxn.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792814/portfolio/dfticgxywotdeyd0aqc3.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792845/portfolio/m3ulvspmruz8cpnfcay3.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792859/portfolio/tu0bnshay5j826myith7.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792881/portfolio/joolj4pfchqmsasxy1lv.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773997866/portfolio/svqj9kyesyeugrxtzmpp.jpg"
+      ]
+    },
+    {
+      "title": "Jacquard Study",
+      "category": "prints",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792801/portfolio/jcimoweaoznjovjqieus.png",
+      "video": "",
+      "gallery": []
+    },
+    {
+      "title": "Indian Ocean Heirloom Heritage Smocks & Island Craftsmanship",
+      "category": "kidswear",
+      "description": "Indian Ocean Heirloom is a heritage-inspired childrenswear capsule exploring the emotional beauty of smocking, artisanal craftsmanship and island memories from the Indian Ocean.\n\nRooted in traditional savoir-faire, the project combines hand-smocked silhouettes, delicate embroideries, vintage-inspired stripes and botanical prints through a soft, contemporary lens.\n\nInspired by Creole architecture, tropical landscapes and heirloom garments passed through generations, the collection celebrates a refined vision of childrenswear where craftsmanship and storytelling become one.\n\nIndian Ocean Heirloom est une capsule de mode enfant inspirée de l’héritage artisanal, explorant la beauté émotionnelle des smocks, des savoir-faire traditionnels et des souvenirs insulaires de l’océan Indien.\n\nAncré dans un savoir-faire traditionnel, le projet mêle silhouettes smockées à la main, broderies délicates, rayures d’inspiration vintage et imprimés botaniques dans une approche douce et contemporaine.\n\nInspirée par l’architecture créole, les paysages tropicaux et les vêtements transmis de génération en génération, la collection célèbre une vision raffinée de la mode enfantine où artisanat et narration ne font plus qu’un.",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1778155530/portfolio/aank33jrrimhc2o7kvkw.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1778155770/portfolio/z5xvfaextemc4wpskjin.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1778155779/portfolio/alv8xmsx6ylemvothgog.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1778155786/portfolio/k9jw1x36gnchdz6aqmqr.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1778155806/portfolio/bshphsapuuem7dmtqnb4.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1778155816/portfolio/tjog0nr16nchbzd26vha.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1778155823/portfolio/l4wo3caczyjwwgpc9eka.png"
+      ]
+    },
+    {
+      "title": "Textile Structure",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1791968539/portfolio/freui6oyc1cr216gjkny.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774272500/portfolio/ibui1lt0whvvc6pdtfig.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774272606/portfolio/ruwgzcdlxunhom6lqp8w.png"
+      ]
+    },
+    {
+      "title": "Kitwear pyjamas ",
+      "category": "lingerie",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1776420348/portfolio/k08uw4zjm50wzyd1jtve.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1776420376/portfolio/f3zogty1pzhheqgkdgu5.png"
+      ]
+    },
+    {
+      "title": "Geometric Rhythm",
+      "category": "prints",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792792/portfolio/sicepnosetmuol2mab5y.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792890/portfolio/cqvkd2yoqxijszd31fxl.jpg"
+      ]
+    },
+    {
+      "title": "Sketching",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://img.youtube.com/vi/V7vkiJB1IuE/hqdefault.jpg",
+      "video": "https://youtu.be/V7vkiJB1IuE",
+      "gallery": []
+    },
+    {
+      "title": "Mood board Lingerie AH 2027",
+      "category": "lingerie",
+      "description": "CONFIDENCE IS THE NEW SEXY\n\nDéveloppement d'un concept de capsule lingerie imaginé à partir d'un brief de marque. Le projet explore une vision de la féminité où la confiance en soi devient le véritable langage de la séduction. À travers une recherche de matières, une palette de neutres chaleureux et une silhouette sculptante mais confortable, la collection réinterprète le shapewear dans un registre plus sensoriel, lumineux et désirable.",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1785269903/portfolio/xfc4frmuhlj5wuku3l7x.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1785270055/portfolio/uomfkmd1bv5pnboow7ok.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1785270073/portfolio/utoirtrfavyq674nphhr.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1785270108/portfolio/nqokh1230pxzpixgy7ba.png"
+      ]
+    },
+    {
+      "title": "Chromatic Construction",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792765/portfolio/ohfem1ciiahl6asrc1wb.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792854/portfolio/stna3t4kaqp7dwylspla.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792855/portfolio/q9ux1lyw6ytftogwcdpt.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792856/portfolio/ra0omx5bid5aofsbhs7q.png"
+      ]
+    },
+    {
+      "title": "Modern Vintage",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792779/portfolio/ud2ufobqu1ow77nagpyx.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792870/portfolio/wdiunhoysh44mltt1iiy.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792870/portfolio/bvdjgnteuxkqkyjcq9pq.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792871/portfolio/tfyug11imbv0vki0e6pq.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792872/portfolio/fdvvpyye2prqej8jpc8v.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792873/portfolio/r5mu36u2veni7cotqxge.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792873/portfolio/rdzia7vaeo03r1vwvnzx.jpg"
+      ]
+    },
+    {
+      "title": "Precision Lines",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792793/portfolio/sz4z0v5ahod1aobre8pt.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792879/portfolio/zkopkpf0ymkrno3kf0fc.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792890/portfolio/s49iyaj0z6v8vhuhbfzd.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792891/portfolio/odapqiq8esvipx09y6kx.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792891/portfolio/w7whr6jcgwlixscu84cy.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773997967/portfolio/zw5hdqsg8gndlfkvkfga.jpg"
+      ]
+    },
+    {
+      "title": "Precision Lines",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792794/portfolio/sn2o6azae6iay6gchvhi.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792879/portfolio/qsgqfy5dyh1vqsjf35ce.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792916/portfolio/udwnjmcy0fxbvzuu1c1t.png"
+      ]
+    },
+    {
+      "title": "Chromatic Construction",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792797/portfolio/lhxzkvyj1ku7mkwqm1vr.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792883/portfolio/epjrwv99opclqmsfdljq.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792884/portfolio/ev3y1phgcjhpobmxnvel.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792886/portfolio/frwacwpsgglwsj8cfikp.jpg"
+      ]
+    },
+    {
+      "title": "Line & Light",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792797/portfolio/ujfs7jdejxsklyjpa4bu.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792888/portfolio/ujmy8koszmgddkqex9eh.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792913/portfolio/lnum050flhhzcvyxhksd.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792914/portfolio/pm2urhuea7jhiwss8omm.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792915/portfolio/kk5wzuvwjh2u9rar4ex0.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792915/portfolio/p7qpzchftcnoeiop0d4k.jpg"
+      ]
+    },
+    {
+      "title": "Architectural Swim",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792780/portfolio/espfndqm1pzi0wbtcdjd.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792892/portfolio/onerasrwyfwlaw6zj4h3.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792894/portfolio/iwhw7gygp4fj94fhi9xe.jpg"
+      ]
+    },
+    {
+      "title": "Swimwear design ",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792793/portfolio/mzw4ufuppewmmtig1oum.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792910/portfolio/aygalwtyh96ac4oukhkh.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792911/portfolio/clwc1pf9ucpfjb2etc9t.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792912/portfolio/xy8k0qfihk8o6zmhno32.png"
+      ]
+    },
+    {
+      "title": "Swimsuit in French Jacquard ",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773997245/portfolio/xdpzv7h3nktgo1imsbba.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773996919/portfolio/rrunotajubpbhx2qolxo.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773996928/portfolio/tkhkqjdkohxegklbtydm.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773996936/portfolio/lescy8magataruqh2qmc.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1773997245/portfolio/xdpzv7h3nktgo1imsbba.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774273027/portfolio/ww96iboemqak4lyfz7ze.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774274255/portfolio/ps5a50y5wkoe8zghsrkd.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774274290/portfolio/gpngndgi5zcgjs7ksq2u.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774274299/portfolio/u5b5kb2svxeedcri9g7j.png"
+      ]
+    },
+    {
+      "title": "Maison des Pétillantes — Creative Direction",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792832/portfolio/vfid3wzvciy7vyegd7fs.jpg",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792823/portfolio/r9knby0nqzgfxrccjkct.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792823/portfolio/k8mxha8riyzigtmisug7.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792824/portfolio/fzwwbaujvlstrrwi7r8c.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792825/portfolio/kkgexxptroa7nrvlhxxz.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792829/portfolio/vmejkdsehrh97k1gfggc.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792830/portfolio/jdcodyx9fgud40vmyasa.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792832/portfolio/vfid3wzvciy7vyegd7fs.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792834/portfolio/pma68f5c14yx1r20ggu8.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792834/portfolio/aoiatbgak7yah0rt4fs9.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792835/portfolio/htzoe6pgpj7ohuvesh1j.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792839/portfolio/gthsl7cz2doks1hwoxhj.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792840/portfolio/unmmedtvnn85mpgdhfdv.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792840/portfolio/epyhptxv3r4oelwvehec.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792841/portfolio/dfmcxjnjkprwjitxryic.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792842/portfolio/gld04xpxllyhgmrwttqv.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792842/portfolio/jzeumhjsvnp1hdb6mafa.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792843/portfolio/iewxoivnztwh2soskui7.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1772792843/portfolio/g3gunaddrpa9crxhzh7m.jpg",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1774275221/portfolio/jpxxbcnat8qtdcununwh.png"
+      ]
+    },
+    {
+      "title": "Mini Swimwear & Beachwear Capsule",
+      "category": "swimwear",
+      "description": "",
+      "image": "https://res.cloudinary.com/dydzsjkoh/image/upload/v1778155304/portfolio/kh6perijdbt0fudxijeg.png",
+      "video": "",
+      "gallery": [
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1778155334/portfolio/lx7glokvehlazwpmjdkq.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1778155343/portfolio/lbqfhgjs6xi2i7lswesj.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1778155351/portfolio/hrvraoaxjyuacpef2a7o.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1778155364/portfolio/gvgc6nx74q9nv8yol2hh.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1778155380/portfolio/ttz9wpugklg88snyi6vw.png",
+        "https://res.cloudinary.com/dydzsjkoh/image/upload/v1778155386/portfolio/rq5tnzfkdlyagnwdiesj.png"
+      ]
+    }
+  ]
+}

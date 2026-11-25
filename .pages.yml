@@ -1,0 +1,39 @@
+media:
+  input: media
+  output: media
+content:
+  - name: portfolio
+    label: Portfolio
+    type: file
+    path: portfolio.json
+    fields:
+      - name: projects
+        label: Projets
+        type: object
+        list: true
+        fields:
+          - {name: title, label: Titre, type: string, required: true}
+          - name: category
+            label: Rubrique
+            type: select
+            options:
+              values: [swimwear, lingerie, kidswear, prints]
+          - {name: description, label: Description, type: text}
+          - {name: image, label: Couverture, type: image, required: true}
+          - {name: gallery, label: Galerie, type: image, list: true}
+          - {name: video, label: Lien vidéo, type: string}
+  - name: studio
+    label: Textes du studio
+    type: file
+    path: studio.json
+    fields:
+      - {name: bio_paragraph_1, type: text}
+      - {name: bio_paragraph_2, type: text}
+      - {name: bio_highlight, type: text}
+      - {name: expertises, type: text}
+      - {name: email, type: text}
+      - {name: intro_text, type: text}
+      - {name: pitch_subtitle, type: text}
+      - {name: copyright, type: text}
+      - {name: instagram_url, type: text}
+      - {name: linkedin_url, type: text}
