@@ -18,12 +18,12 @@
 .work-index { padding-top: clamp(1.25rem, 3vw, 3rem); }
 .work-index h1, .story-heading { text-align: center; }
 .work-index h1 { font-size: clamp(2.35rem, 4.5vw, 4rem); }
-.filter { justify-content: center; gap: .3rem clamp(.8rem, 2vw, 2rem); margin-bottom: clamp(2rem, 5vw, 4rem); }
+.filter { justify-content: center; gap: .3rem clamp(.8rem, 2vw, 2rem); margin-bottom: clamp(1rem, 2vw, 1.75rem); }
 .filter a, .story-heading a, .menu-sections a { text-transform: uppercase; letter-spacing: .15em; font-size: .72rem; }
 .filter a { padding: .6rem 0; }
 .grid { align-items: start; grid-template-columns: repeat(2, minmax(0,1fr)); gap: clamp(2rem, 5vw, 4rem) clamp(1rem, 3vw, 3rem); }
 .project { display: block; text-align: center; }
-.project img { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; }
+.project img { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; object-position: center top; }
 .project span { font-size: clamp(1.45rem, 2.3vw, 2rem); line-height: 1.13; }
 .collection-story { max-width: 1080px; padding: clamp(1.2rem, 3vw, 3.5rem) clamp(.5rem, 3vw, 3rem) 4rem; }
 .story-heading { max-width: 54rem; margin: 0 auto clamp(1.8rem, 4vw, 3.5rem); padding-inline: .8rem; }
