@@ -70,17 +70,27 @@ if (page === 'project' && selected) {
   const heading = node('div', null, 'story-heading');
   heading.append(link(categories[p.category], '?page=work&category=' + p.category), node('h1', p.title));
   article.append(heading);
+  const filmId = p.video?.match(/^https:\/\/(?:youtu\.be\/|(?:www\.)?youtube\.com\/watch\?v=)([\w-]{11})(?:[?&#]|$)/)?.[1];
+  if (filmId) {
+    const player = node('iframe', null, 'story-film');
+    player.title = p.title;
+    player.src = 'https://www.youtube-nocookie.com/embed/' + filmId;
+    player.allow = 'encrypted-media; picture-in-picture; fullscreen';
+    player.allowFullscreen = true;
+    player.referrerPolicy = 'strict-origin-when-cross-origin';
+    article.append(player);
+  }
   const images = [...new Set([p.image, ...(p.gallery || [])].filter(Boolean))];
   for (const [i, src] of images.entries()) {
     const img = photo(src, p.title + ' — planche ' + (i + 1), 'story-image');
     img.loading = i === 0 ? 'eager' : 'lazy';
-    article.append(img);
+    if (!(filmId && i === 0)) article.append(img);
     if (i === 0) {
       const copy = node('div', null, 'story-copy');
       for (const paragraph of (p.description || '').trim().split(/\n\s*\n/).filter(Boolean)) {
         copy.append(node('p', paragraph));
       }
-      if (p.video) copy.append(link('Voir le film', p.video));
+      if (p.video) copy.append(link(filmId ? 'Voir sur YouTube' : 'Voir le film', p.video));
       if (copy.childElementCount) article.append(copy);
     }
   }
@@ -125,7 +135,6 @@ if (page === 'project' && selected) {
 }else{
   const covers={};for(const p of projects) covers[p.category]??=p.image;
   const hero=document.querySelector('main section');if(covers.swimwear)hero.prepend(photo(covers.swimwear,'','_heroImage_lpelg_13'));
-  document.querySelector('._pitchTitle_lpelg_94').textContent=studio.pitch_subtitle;
   for(const a of main.querySelectorAll('a[href*="category="]')){
     const cat=new URL(a.href).searchParams.get('category');
     if(covers[cat])a.firstElementChild.replaceWith(photo(covers[cat],'','_categoryImage_lpelg_128'));
