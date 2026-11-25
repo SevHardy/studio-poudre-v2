@@ -108,7 +108,18 @@ if (page === 'project' && selected) {
   if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
 }else if(page==='about'||page==='contact'){
   const about=page==='about',title=about?'About':'Contact';document.title=title+' | Studio Poudré';
-  const el=view('split'),body=node('div');el.append(photo(about?'portrait.webp':'contact.webp',about?'Séverine Hardy':'Création bain'),body);body.append(node('h1',title));
+  const el = view(about ? 'split about' : 'split');
+  const body = node('div');
+  const image = photo(about ? 'portrait.webp' : 'contact.webp', about ? 'Séverine Hardy' : 'Création bain');
+  if (about) {
+    const frame = node('div', null, 'about-portrait');
+    frame.append(image);
+    el.append(frame);
+  } else {
+    el.append(image);
+  }
+  el.append(body);
+  body.append(node('h1', title));
   if(about)body.append(node('p',studio.bio_paragraph_1),node('p',studio.bio_paragraph_2),node('blockquote',studio.bio_highlight),node('p',studio.expertises));
   else body.append(node('p',studio.intro_text),link(studio.email,'mailto:'+studio.email));
 }else{
