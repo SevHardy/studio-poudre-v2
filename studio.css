@@ -89,3 +89,5 @@
   .collection-story .story-copy { order: 1; }
   .collection-story > a { order: 2; }
 }
+
+.story-film { display: block; width: 100%; max-width: 60rem; aspect-ratio: 16 / 9; height: auto; margin: 0 auto; border: 0; grid-column: 1 / -1; }
