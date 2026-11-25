@@ -33,7 +33,6 @@ content:
       - {name: expertises, type: text}
       - {name: email, type: text}
       - {name: intro_text, type: text}
-      - {name: pitch_subtitle, type: text}
       - {name: copyright, type: text}
       - {name: instagram_url, type: text}
       - {name: linkedin_url, type: text}
