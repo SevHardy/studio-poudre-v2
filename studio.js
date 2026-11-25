@@ -124,12 +124,14 @@ if (page === 'project' && selected) {
   if (about) {
     const frame = node('div', null, 'about-portrait');
     frame.append(image);
-    el.append(frame);
+    const heading = node('div', null, 'about-heading');
+    heading.append(node('h1', 'Séverine Hardy'), node('p', 'Styliste & Directrice Artistique'));
+    el.append(heading, frame);
   } else {
     el.append(image);
   }
   el.append(body);
-  body.append(node('h1', title));
+  if (!about) body.append(node('h1', title));
   if(about)body.append(node('p',studio.bio_paragraph_1),node('p',studio.bio_paragraph_2),node('blockquote',studio.bio_highlight),node('p',studio.expertises));
   else body.append(node('p',studio.intro_text),link(studio.email,'mailto:'+studio.email));
 }else{
