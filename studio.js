@@ -15,30 +15,97 @@ function photo(url, title, cls) {
 }
 function link(text, url) { const el=node('a',text); el.href=url; return el; }
 function view(cls) { const section=node('section',null,'view '+cls); main.replaceChildren(section); return section; }
-const toggle=document.querySelector('header button');
-const mobile=node('nav',null,'mobile-links');
-mobile.hidden=true; mobile.setAttribute('aria-label','Navigation mobile');
-document.querySelectorAll('header nav a').forEach(a=>mobile.append(a.cloneNode(true)));
-document.querySelector('header').append(mobile);
-toggle.onclick=()=>{mobile.hidden=!mobile.hidden;toggle.setAttribute('aria-expanded',String(!mobile.hidden));};
-function showProject(p, origin) {
-  const dialog=node('dialog',null,'detail'), close=node('button','Fermer ×');
-  dialog.setAttribute('aria-label',p.title); close.onclick=()=>dialog.close();
-  dialog.append(close,node('h2',p.title),node('p',p.description),photo(p.image,p.title));
-  if(p.video) dialog.append(link('Voir le film',p.video));
-  for(const src of p.gallery || []) {const img=photo(src,p.title);img.loading='lazy';dialog.append(img);}
-  dialog.onclose=()=>{dialog.remove();origin.focus();};document.body.append(dialog);dialog.showModal();
+const toggle = document.querySelector('header button');
+const header = document.querySelector('header');
+const mobile = node('nav', null, 'mobile-links');
+mobile.id = 'mobile-navigation';
+mobile.hidden = true;
+mobile.setAttribute('aria-label', 'Navigation mobile');
+toggle.setAttribute('aria-controls', mobile.id);
+const menuGroup = node('div', null, 'menu-group');
+for (const a of header.querySelectorAll('nav a')) {
+  menuGroup.append(a.cloneNode(true));
+  if (a.search === '?page=work') {
+    const sections = node('div', null, 'menu-sections');
+    for (const [key, label] of Object.entries(categories)) {
+      sections.append(link(label, '?page=work&category=' + key));
+    }
+    menuGroup.append(sections);
+  }
 }
-if(page==='work'){
-  const el=view(''),chosen=query.get('category'),nav=node('nav',null,'filter'),grid=node('div',null,'grid');
-  document.title='Work | Studio Poudré';el.append(node('h1','Work'),nav,grid);
-  for(const [key,label] of Object.entries({all:'Tout',...categories})){
-    const a=link(label,key==='all'?'?page=work':'?page=work&category='+key);
-    if(key===(chosen||'all'))a.setAttribute('aria-current','page');nav.append(a);
+mobile.append(menuGroup);
+header.append(mobile);
+function openMenu(open) {
+  mobile.hidden = !open;
+  document.body.classList.toggle('menu-open', open);
+  toggle.setAttribute('aria-expanded', String(open));
+  toggle.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
+  main.inert = open;
+  document.querySelector('footer').inert = open;
+}
+toggle.onclick = () => openMenu(mobile.hidden);
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && !mobile.hidden) { openMenu(false); toggle.focus(); }
+});
+matchMedia('(max-width:768px)').addEventListener('change', () => openMenu(false));
+window.addEventListener('pageshow', () => openMenu(false));
+
+const chosen = Object.hasOwn(categories, query.get('category')) ? query.get('category') : '';
+const workURL = chosen ? '?page=work&category=' + chosen : '?page=work';
+const projectKeys = new Map();
+const used = new Set();
+for (const p of projects) {
+  const base = (p.category + '-' + p.title).normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
+  let key = base;
+  for (let n = 2; used.has(key); n++) key = base + '-' + n;
+  used.add(key);
+  projectKeys.set(p, key);
+}
+const selected = projects.find(p => projectKeys.get(p) === query.get('project'));
+if (page === 'project' && selected) {
+  const p = selected;
+  const article = view('collection-story');
+  document.title = p.title + ' | Studio Poudré';
+  const heading = node('div', null, 'story-heading');
+  heading.append(link(categories[p.category], '?page=work&category=' + p.category), node('h1', p.title));
+  article.append(heading);
+  const images = [...new Set([p.image, ...(p.gallery || [])].filter(Boolean))];
+  for (const [i, src] of images.entries()) {
+    const img = photo(src, p.title + ' — planche ' + (i + 1), 'story-image');
+    img.loading = i === 0 ? 'eager' : 'lazy';
+    article.append(img);
+    if (i === 0) {
+      const copy = node('div', null, 'story-copy');
+      for (const paragraph of (p.description || '').trim().split(/\n\s*\n/).filter(Boolean)) {
+        copy.append(node('p', paragraph));
+      }
+      if (p.video) copy.append(link('Voir le film', p.video));
+      if (copy.childElementCount) article.append(copy);
+    }
   }
-  for(const p of projects.filter(p=>!chosen||p.category===chosen)){
-    const b=node('button',null,'project'),img=photo(p.image,'');img.loading='lazy';b.append(img,node('span',p.title));b.onclick=()=>showProject(p,b);grid.append(b);
+  article.append(link('← Retour au portfolio', workURL + '#'+projectKeys.get(p)));
+} else if (page === 'work' || page === 'project') {
+  const el = view('work-index'), nav = node('nav', null, 'filter'), grid = node('div', null, 'grid');
+  document.title = (categories[chosen] || 'Work') + ' | Studio Poudré';
+  el.append(node('h1', categories[chosen] || 'Work'), nav, grid);
+  nav.setAttribute('aria-label', 'Rubriques du portfolio');
+  for (const [key, label] of Object.entries({all:'Tout', ...categories})) {
+    const a = link(label, key === 'all' ? '?page=work' : '?page=work&category=' + key);
+    if (key === (chosen || 'all')) a.setAttribute('aria-current', 'page');
+    nav.append(a);
   }
+  for (const p of projects.filter(p => !chosen || p.category === chosen)) {
+    const key = projectKeys.get(p);
+    const a = link('', '?page=project&project=' + key + (chosen ? '&category=' + chosen : ''));
+    a.id = key;
+    a.className = 'project';
+    const img = photo(p.image, '');
+    img.loading = 'lazy';
+    a.append(img, node('span', p.title));
+    grid.append(a);
+  }
+  if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
 }else if(page==='about'||page==='contact'){
   const about=page==='about',title=about?'About':'Contact';document.title=title+' | Studio Poudré';
   const el=view('split'),body=node('div');el.append(photo(about?'portrait.webp':'contact.webp',about?'Séverine Hardy':'Création bain'),body);body.append(node('h1',title));
