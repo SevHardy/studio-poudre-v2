@@ -1,2 +1,16 @@
 @font-face{font-family:Italiana;src:url(italiana.woff2)}@font-face{font-family:Inter;src:url(inter.woff2);font-weight:100 900}
 .view{max-width:1240px;margin:auto;padding:clamp(2rem,6vw,6rem) 5vw}.view h1{font:clamp(3rem,7vw,6rem)/1.1 Italiana,serif;margin:0 0 2rem}.filter{display:flex;flex-wrap:wrap;gap:1.3rem;margin-bottom:2rem}.filter a[aria-current]{border-bottom:1px solid}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2.5rem 1.2rem}.project{color:inherit;text-align:left;font:inherit;background:none;border:0;cursor:pointer}.project img{width:100%;aspect-ratio:4/5;object-fit:cover}.project span{display:block;font:1.45rem Italiana,serif;margin-top:.7rem}.split{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1fr);gap:6vw;align-items:center}.split>img{width:100%;max-height:78vh;object-fit:contain}.split p,.detail p{white-space:pre-line;line-height:1.75;margin-bottom:1rem}.split blockquote{font:1.75rem/1.35 Italiana,serif;margin:1.8rem 0}.split a,.detail a{text-decoration:underline}.detail{border:0;width:min(90vw,820px);max-height:90vh;color:inherit;background:var(--background);padding:1.5rem}.detail::backdrop{background:#211a18bb}.detail img{display:block;width:100%;height:auto;margin:.9rem auto}.detail button{position:sticky;top:0;display:block;margin-left:auto;background:var(--background);padding:.5rem 1rem;border:1px solid;cursor:pointer}.detail h2{font:2.2rem Italiana,serif}.mobile-links{display:flex;justify-content:center;gap:2rem;padding:1rem}.mobile-links[hidden]{display:none}@media(max-width:680px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem .8rem}.project span{font-size:1.15rem}.split{grid-template-columns:1fr;gap:2rem}.split>img{max-height:55vh}.view h1{margin-bottom:1.2rem}}
+
+/* About and Contact share a two-column photo layout. */
+.view.split {
+  padding-top: clamp(1rem, 2.5vh, 2rem);
+}
+.split > img {
+  align-self: start;
+  object-position: center top;
+}
+@media (min-width: 681px) {
+  .split > img {
+    max-height: min(78vh, calc(100svh - 11rem));
+  }
+}
